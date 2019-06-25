@@ -1,0 +1,2 @@
+<%= appointment.appointment_datetime.strftime("%B %d, %Y at %h:%M") %><br>
+<%= link_to appointment.patient.name, doctor_path(appointment.doctor) %><br>
